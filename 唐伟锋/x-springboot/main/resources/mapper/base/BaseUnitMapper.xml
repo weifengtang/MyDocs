@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.china.army.manager.modules.base.mapper.BaseUnitMapper">
+
+	<!-- 可根据自己的需求，是否要使用！！ -->
+    <resultMap type="com.china.army.manager.modules.base.entity.BaseUnit" id="BaseUnitMap">
+        <result property="id" column="id"/>
+        <result property="unitname" column="unitName"/>
+        <result property="leadername" column="leaderName"/>
+        <result property="leadername2" column="leaderName2"/>
+        <result property="leaderUserId" column="leader_user_id"/>
+        <result property="adderss" column="adderss"/>
+        <result property="phone" column="phone"/>
+        <result property="naticemsg" column="naticeMsg"/>
+        <result property="remark" column="remark"/>
+    </resultMap>
+
+</mapper>

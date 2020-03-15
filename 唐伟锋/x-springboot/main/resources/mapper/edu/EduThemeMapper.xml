@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.china.army.manager.modules.edu.mapper.EduThemeMapper">
+
+	<!-- 可根据自己的需求，是否要使用！！ -->
+    <resultMap type="com.china.army.manager.modules.edu.entity.EduTheme" id="EduThemeMap">
+        <result property="id" column="id"/>
+        <result property="edutypename" column="eduTypeName"/>
+        <result property="eautypecreateuser" column="eauTypeCreateUser"/>
+        <result property="edutypecreateunit" column="eduTypeCreateUnit"/>
+        <result property="edutypecreateleader" column="eduTypeCreateLeader"/>
+        <result property="edutypecreatetime" column="eduTypeCreateTime"/>
+        <result property="flag" column="flag"/>
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,3 @@
+
+1、前后端分离系统时，出现了很多坑，比如前后端的url域名相同，但是端口号不同。例如前端页面为：http://127.0.0.1/ ， 后端api根路径为 http://127.0.0.1:8888 ，这样就导致跨域问题，前端设置的request header或者cookies后端接收不到，这是很蛋疼的问题。用nginx配置端口转发完美解决。首先在本机安装nginx，前端配置端口号为80
+原文：https://blog.csdn.net/weixin_33754065/article/details/93283463?utm_source=distribute.pc_relevant.none-task

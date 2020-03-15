@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.china.army.manager.modules.base.mapper.BaseCarMapper">
+
+	<!-- 可根据自己的需求，是否要使用！！ -->
+    <resultMap type="com.china.army.manager.modules.base.entity.BaseCar" id="BaseCarMap">
+        <result property="id" column="id"/>
+        <result property="carid" column="carId"/>
+        <result property="carname" column="carName"/>
+        <result property="cartime" column="carTime"/>
+        <result property="cardriver" column="carDriver"/>
+        <result property="caruse" column="carUse"/>
+        <result property="cartype" column="carType"/>
+        <result property="carprice" column="carPrice"/>
+        <result property="carcolor" column="carColor"/>
+    </resultMap>
+
+</mapper>

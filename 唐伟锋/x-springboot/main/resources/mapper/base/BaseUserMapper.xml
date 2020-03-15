@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.china.army.manager.modules.base.mapper.BaseUserMapper">
+
+	<!-- 可根据自己的需求，是否要使用！！ -->
+    <resultMap type="com.china.army.manager.modules.base.entity.BaseUser" id="BaseUserMap">
+        <result property="id" column="id"/>
+        <result property="username" column="userName"/>
+        <result property="degree" column="degree"/>
+        <result property="unit" column="unit"/>
+        <result property="jionTime" column="jion_time"/>
+        <result property="mobile" column="mobile"/>
+        <result property="homeAddress" column="home_address"/>
+        <result property="homePhone" column="home_phone"/>
+        <result property="remark" column="remark"/>
+        <result property="detail" column="detail"/>
+    </resultMap>
+
+</mapper>
